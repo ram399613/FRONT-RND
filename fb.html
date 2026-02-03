@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Login</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: #f0f2f5;
+        }
+
+        .main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            gap: 60px;
+        }
+
+        .left {
+            width: 400px;
+        }
+
+        .logo {
+            color: #1877f2;
+            font-size: 55px;
+            font-weight: bold;
+        }
+
+        .tagline {
+            font-size: 22px;
+            margin-top: 10px;
+        }
+
+        .right {
+            width: 400px;
+        }
+
+        .loginfrom {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+
+        .loginfrom input {
+            width: 100%;
+            padding: 14px;
+            margin-bottom: 12px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+
+        .loginfrom button {
+            width: 100%;
+            padding: 14px;
+            background-color: #1877f2;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .loginfrom button:hover {
+            background-color: #166fe5;
+        }
+
+        .loginfrom a {
+            display: block;
+            margin: 15px 0;
+            color: #1877f2;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .loginfrom a:hover {
+            text-decoration: underline;
+        }
+
+        hr {
+            margin: 20px 0;
+            border: 1px solid #ddd;
+        }
+
+        .loginfrom button:last-of-type {
+            background-color: #42b72a;
+            width: auto;
+            padding: 12px 16px;
+            font-size: 16px;
+        }
+
+        .loginfrom button:last-of-type:hover {
+            background-color: #36a420;
+        }
+
+        .right p {
+            margin-top: 20px;
+            font-size: 14px;
+            text-align: center;
+        }
+
+        .right p a {
+            font-weight: bold;
+            color: black;
+            text-decoration: none;
+        }
+
+        .right p a:hover {
+            text-decoration: underline;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="left">
+            <h1 class="logo">Facebook</h1>
+            <p class="tagline">Facebook helps you connect and share with the people in your life.</p>
+        </div>
+
+        <div class="right">
+            <div class="loginfrom">
+                <form action="">
+                    <input type="text" placeholder="Email address or phone number">
+                    <input type="password" placeholder="Password">
+                    <button>Log in</button>
+                    <a href="#">Forgotten password?</a>
+                    <hr>
+                    <button>Create new account</button>
+                </form>
+                <div>
+                    <p><a href="#">Create a Page</a> for a celebrity, brand or business.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

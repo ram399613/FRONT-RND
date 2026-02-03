@@ -1,0 +1,43 @@
+body{
+   background-color: blue;
+}
+.EXT{
+    color:white;
+}
+/*CSS selector */
+/*1.universal Selector */
+*{
+    background-color: purple;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*2.element selector*/
+h4{
+    color: black;
+}
+/*3.class  selector*/
+.EXT{
+    color: aqua;
+}
+/*4.id selector*/
+#idl{
+    color: aqua;
+}
+/*5.group selector*/
+h5,h6,p{
+    color: blue;
+}
+/*6.attribute selector*/
+input[type="text"]{
+    border: 2px solid green;
+    padding: 5px;
+
+}
+/*7.psuedo class selector */
+a:hover{
+    color: brown;
+    background-color:black;
+    cursor: pointer;
+}
+
+
+

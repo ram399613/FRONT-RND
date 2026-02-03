@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            position: relative;
+            padding: 20px;
+            background: red;
+            margin-bottom: 10px;
+
+        }
+        .relative{
+            background: violet;
+            padding: 30px;
+            left: 20px;
+            top: 30px;
+
+
+        }
+        .absolute{
+ 
+            background: yellow;
+            padding: 20px;
+            right: 10px;
+            bottom: 10px;
+
+
+        }
+        .fixed{
+           
+            background: green;
+            padding: 40px;
+            color:white;
+        }
+        .display{
+            background: yellow;
+            padding: 10px ;
+            margin: 5px;
+
+        }
+        .block{
+            display: block;
+
+        }
+        .inline{
+            display: inline;
+        }
+        .inline-block{
+            display: inline-block;
+            width: 120px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main"> DISPLAY PROPERTIES
+        <div class="relative">
+            relatives
+
+        </div>
+        <div class="absolute">Absolute</div>
+        <div class="fixed">fixed</div>
+
+    </div>
+
+
+
+    <div class="display">
+        <!--start from new line-->
+        <div class="block">block</div>
+         <!--stay on same line-->
+        <div class="inline">inline</div><br>
+        <!--same as inline, width height -->
+        <div class="inline-block">inline block</div>
+             
+    </div>
+    
+</body>
+</html>
